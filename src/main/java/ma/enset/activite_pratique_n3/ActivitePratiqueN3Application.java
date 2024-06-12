@@ -88,7 +88,7 @@ CommandLineRunner commandLineRunner (JdbcUserDetailsManager jdbcUserDetailsManag
     }
   //  FOR user detailsService Authentication ****************************************************************************************************************************************************************************************
 
-   // @Bean
+   @Bean
 
     CommandLineRunner commandLineRunnerUserDetails (AccountService accountService)
     {
